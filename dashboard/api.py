@@ -173,7 +173,7 @@ async def clear_simulation():
     for folder in (inputs_dir, results_dir):
         if folder.exists():
             for f in folder.iterdir():
-                if f.is_file():
+                if f.is_file() and f.suffix in (".parquet", ".json"):
                     f.unlink()
                     removed += 1
 
