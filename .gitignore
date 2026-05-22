@@ -16,5 +16,6 @@ __pycache__/
 dist/
 build/
 
-# exclude any simulation parquets created
-*.parquet
+# exclude any simulation files created 
+data_store/simulation_outputs/*.parquet
+data_store/simulation_inputs/usage_params.json
