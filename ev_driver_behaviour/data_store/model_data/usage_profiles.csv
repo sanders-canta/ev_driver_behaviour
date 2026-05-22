@@ -1,0 +1,7 @@
+name,population_percentage,kWh_per_week,plug_in_frequency,avg_drives_per_day,charger_kW,normal_plug_in_time,normal_plug_out_time,battery_kWh,miles_per_kWh,target_soc_for_charging
+Average (UK),40,51.85,1.0,2.0,7,6:00 PM,7:00 AM,60.0,3.5,80%
+Intelligent Octopus average,30,154.42,1.0,2.0,7,6:00 PM,7:00 AM,72.5,3.5,80%
+Infrequent charging,10,51.85,0.2,0.4,7,6:00 PM,7:00 AM,60.0,3.5,80%
+Infrequent driving,10,31.33,1.0,2.0,7,6:00 PM,7:00 AM,60.0,3.5,80%
+Scheduled charging,9,51.85,1.0,2.0,7,10:00 PM,9:00 AM,60.0,3.5,80%
+Always plugged-in,1,51.85,1.0,2.0,7,12:00 AM,11:59 PM,60.0,3.5,80%

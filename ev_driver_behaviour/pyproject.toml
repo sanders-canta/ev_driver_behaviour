@@ -1,0 +1,14 @@
+[project]
+name = "ev-driver-behaviour"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.135.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "polars>=1.38.1",
+    "pydantic>=2.12.5",
+    "uvicorn>=0.41.0",
+]
