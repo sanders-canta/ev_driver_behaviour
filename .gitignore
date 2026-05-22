@@ -17,5 +17,5 @@ dist/
 build/
 
 # exclude any simulation files created 
-data_store/simulation_outputs/*.parquet
+data_store/simulation_results/*.parquet
 data_store/simulation_inputs/usage_params.json
